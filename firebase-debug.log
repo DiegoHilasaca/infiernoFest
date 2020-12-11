@@ -1,0 +1,129 @@
+[debug] [2020-12-11T19:38:56.031Z] ----------------------------------------------------------------------
+[debug] [2020-12-11T19:38:56.033Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Diego\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-11T19:38:56.033Z] CLI Version:   8.18.1
+[debug] [2020-12-11T19:38:56.033Z] Platform:      win32
+[debug] [2020-12-11T19:38:56.033Z] Node Version:  v14.11.0
+[debug] [2020-12-11T19:38:56.034Z] Time:          Fri Dec 11 2020 14:38:56 GMT-0500 (hora estándar de Perú)
+[debug] [2020-12-11T19:38:56.035Z] ----------------------------------------------------------------------
+[debug] [2020-12-11T19:38:56.035Z] 
+[debug] [2020-12-11T19:38:56.040Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-11T19:38:56.040Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Documentos\$react\Inferno-fest
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-12-11T19:39:11.609Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-12-11T19:39:12.805Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project infiernofest-b4c11 (infiernoFest) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2020-12-11T19:39:13.933Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/infiernofest-b4c11/services/firebasedatabase.googleapis.com  
+ 
+[debug] [2020-12-11T19:39:15.272Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2020-12-11T19:39:15.275Z] >>> HTTP REQUEST GET https://firebasedatabase.googleapis.com/v1beta/projects/infiernofest-b4c11/locations/-/instances/infiernofest-b4c11-default-rtdb  
+ 
+[debug] [2020-12-11T19:39:16.666Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2020-12-11T19:39:34.358Z] >>> HTTP REQUEST GET https://infiernofest-b4c11-default-rtdb.firebaseio.com/.settings/rules.json  
+ 
+[debug] [2020-12-11T19:39:35.216Z] <<< HTTP RESPONSE 200 {"server":"nginx","date":"Fri, 11 Dec 2020 19:39:36 GMT","content-type":"application/json; charset=utf-8","content-length":"161","connection":"keep-alive","access-control-allow-origin":"*","cache-control":"no-cache","strict-transport-security":"max-age=31556926; includeSubDomains; preload"}
+[info] +  Database Rules for infiernofest-b4c11-default-rtdb have been written to database.rules.json. 
+[info] Future modifications to database.rules.json will update Realtime Database Security Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[debug] [2020-12-11T19:39:35.237Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/infiernofest-b4c11/services/firestore.googleapis.com  
+ 
+[debug] [2020-12-11T19:39:36.547Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-11T19:39:36.548Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/infiernofest-b4c11  
+ 
+[debug] [2020-12-11T19:39:37.575Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:39 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-11T19:39:37.576Z] database_type: CLOUD_FIRESTORE
+[debug] [2020-12-11T19:39:37.577Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-11T19:39:37.578Z] > authorizing via signed-in user
+[debug] [2020-12-11T19:39:37.578Z] [iam] checking project infiernofest-b4c11 for permissions ["firebase.projects.get"]
+[debug] [2020-12-11T19:39:37.579Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/infiernofest-b4c11:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-12-11T19:39:38.684Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:40 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=817","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2020-12-11T19:39:44.999Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/infiernofest-b4c11/releases?pageSize=10&pageToken=  
+ 
+[debug] [2020-12-11T19:39:46.167Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-11T19:39:46.169Z] Found ruleset: projects/infiernofest-b4c11/rulesets/dd425681-5eed-4f23-96a7-572bcab7b887
+[debug] [2020-12-11T19:39:46.169Z] >>> HTTP REQUEST GET https://firebaserules.googleapis.com/v1/projects/infiernofest-b4c11/rulesets/dd425681-5eed-4f23-96a7-572bcab7b887  
+ 
+[debug] [2020-12-11T19:39:47.242Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2020-12-11T19:39:54.967Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/infiernofest-b4c11/databases/(default)/collectionGroups/-/indexes  
+ 
+[debug] [2020-12-11T19:39:54.967Z] >>> HTTP REQUEST GET https://firestore.googleapis.com/v1/projects/infiernofest-b4c11/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false  
+ 
+[debug] [2020-12-11T19:39:56.010Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-11T19:39:56.263Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Dec 2020 19:39:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-12-11T19:41:25.902Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2020-12-11T19:41:27.108Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2020-12-11T19:41:27.108Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.0","browserURL":"https://www.gstatic.com/firebasejs/8.2.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.0/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.0/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.0/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.0/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.0/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.0/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.0/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming E:\Documentos\$react\Inferno-fest is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=490807274&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-12-11T19:42:46.749Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"fb72d30a6fbf3c8c0fd8","redirect_uri":"http://localhost:9005","state":"490807274"}
+[debug] [2020-12-11T19:42:47.321Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Fri, 11 Dec 2020 19:42:48 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","status":"200 OK","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"c3f3d878a510e21f61fbf5229ef7d031\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"F732:7E8E:2215F1:314E2C:5FD3CBB8"}
+[debug] [2020-12-11T19:42:47.321Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2020-12-11T19:42:47.883Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2020-12-11T19:42:47.883Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"DiegoHilasaca","id":53499726,"node_id":"MDQ6VXNlcjUzNDk5NzI2","avatar_url":"https://avatars2.githubusercontent.com/u/53499726?v=4","gravatar_id":"","url":"https://api.github.com/users/DiegoHilasaca","html_url":"https://github.com/DiegoHilasaca","followers_url":"https://api.github.com/users/DiegoHilasaca/followers","following_url":"https://api.github.com/users/DiegoHilasaca/following{/other_user}","gists_url":"https://api.github.com/users/DiegoHilasaca/gists{/gist_id}","starred_url":"https://api.github.com/users/DiegoHilasaca/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/DiegoHilasaca/subscriptions","organizations_url":"https://api.github.com/users/DiegoHilasaca/orgs","repos_url":"https://api.github.com/users/DiegoHilasaca/repos","events_url":"https://api.github.com/users/DiegoHilasaca/events{/privacy}","received_events_url":"https://api.github.com/users/DiegoHilasaca/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":7,"public_gists":0,"followers":0,"following":0,"created_at":"2019-07-31T00:58:44Z","updated_at":"2020-12-11T19:41:58Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":104924,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as DiegoHilasaca 
+[info] 
+[debug] [2020-12-11T19:43:05.557Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2020-12-11T19:43:05.953Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2020-12-11T19:43:05.953Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2020-12-11T19:43:08.773Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2020-12-11T19:43:09.187Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2020-12-11T19:43:09.187Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2020-12-11T19:43:09.757Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2020-12-11T19:43:10.176Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2020-12-11T19:43:10.177Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
